@@ -6,13 +6,17 @@
   "scripts": {
     "start": "node src/index.js",
     "lint": "eslint src",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "pre-commit": "lint-staged"
   },
   "keywords": [],
   "author": "C M Arjun",
   "license": "ISC",
   "devDependencies": {
+    "@commitlint/cli": "^16.2.1",
+    "@commitlint/config-conventional": "^16.2.1",
     "eslint": "^8.10.0",
-    "husky": "^7.0.0"
+    "husky": "^7.0.0",
+    "lint-staged": "^12.3.4"
   }
 }
