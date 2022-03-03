@@ -1,4 +1,1 @@
-
-const something = 23
-
-console.log('asdasd')
+console.log("asdasd");
